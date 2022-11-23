@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 struct HeroResponse: Decodable {
-    let id: Int
     let name: String
     let images: HeroImage
 }

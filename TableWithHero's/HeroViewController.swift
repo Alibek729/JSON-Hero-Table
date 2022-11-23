@@ -13,8 +13,14 @@ class HeroViewController: UIViewController {
     
     @IBOutlet weak var nameLabel: UILabel!
     
+    var heroImage: UIImage?
+    var heroName: String?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.image = heroImage
+        nameLabel.text = heroName
     }
 
 }
